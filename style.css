@@ -1,0 +1,23 @@
+h3{
+    color: aqua;
+}
+#btnl {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: aqua;
+}
+
+#btnr {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: aqua;
+}
+
+img{
+    width: 958px;
+    height: 578px;
+}
+#slider{
+    margin-left: 100px;
+
+}

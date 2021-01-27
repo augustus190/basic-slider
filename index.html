@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+    <div class="slider-container">
+                    <h3> your Gallerry </h3> <br>
+        <div class="slider">
+             <img  class="myslides" src="1.jpg" alt="image1" style="width: 100%">
+             <img  class="myslides" src="2.jpg" alt="image1" style="width: 100%">
+             <img  class="myslides" src="3.jpg" alt="image1" style="width: 100%">
+             <img  class="myslides" src="4.jpg" alt="image1" style="width: 100%">
+             <img  class="myslides" src="5.jpg" alt="image1" style="width: 100%">
+               <a class="btnl"   style="position: absolute;top: 45%;left:0" 
+               onclick="plusDivs(-1)"><span id="btnl">&lt;</span></a>
+
+               <a class="btnr"   style="position: absolute;top: 45%;right:0" 
+               onclick="plusDivs(1)"><span id="btnr">&gt;</span></a> 
+        </div>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
